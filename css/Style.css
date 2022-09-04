@@ -21,6 +21,7 @@ header {
 
 .logo:hover {
     filter: blur(2px);
+    transform: scale(1.05);
 }
 
 .main-img {
@@ -65,7 +66,7 @@ header {
     background: rgb(37, 36, 36);;
     padding-top: 20px;
     font-size: 15px;
-    color: #bbbbbb;
+    color: #bfbfbf;
 }
 
 .portfolio {
