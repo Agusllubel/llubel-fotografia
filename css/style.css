@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 header {
     background-color: #368363;
     display: flex;
