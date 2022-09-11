@@ -1,0 +1,47 @@
+.title__portfolio {
+    background-image: url("../assets/images/portafolio-img/portfolio.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    h1 {
+        color: rgb(255, 255, 255);
+        background: linear-gradient( $secondary, $primary);
+        padding: 10px;
+        font-size: 80px;
+        border-radius: 30px;
+        transition: all 0.5s;
+
+        &:hover {
+            filter: blur(3px);
+        }
+    }
+}
+.portfolio {
+    background-color: $tertiary;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+    img {
+        overflow: hidden;
+        object-fit: cover;
+        margin-block: 40px;
+        width: 500px;
+    }
+
+    .img-portafolio {
+        transition: 0.5s;
+
+        &:hover {
+            transform: scale(1.1) translateY(-20px);
+            box-shadow: #0000008f 0px 22px 70px 4px;
+        }
+    }
+}

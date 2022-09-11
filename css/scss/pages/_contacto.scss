@@ -1,0 +1,38 @@
+.title__contact {
+    background-image: url("../assets/images/contacto.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    h1 {
+        color: rgb(255, 255, 255);
+        background: linear-gradient( $secondary, $primary);
+        padding: 10px;
+        font-size: 80px;
+        border-radius: 30px;
+        transition: all 0.5s;
+
+        &:hover {
+            filter: blur(3px);
+        }
+    }
+}
+
+.main__form {
+    background-color: #ffffff;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__imput {
+    width: 500px;
+    padding: 5px;
+    margin: 25px;
+}

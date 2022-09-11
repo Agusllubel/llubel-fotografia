@@ -1,0 +1,46 @@
+.title__services {
+    background-image: url("../assets/images/servicios.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    h1 {
+        color: rgb(255, 255, 255);
+        background: linear-gradient( $secondary, $primary);
+        padding: 10px;
+        font-size: 80px;
+        border-radius: 30px;
+        transition: all 0.5s;
+
+        &:hover {
+            filter: blur(3px);
+        }
+    }
+}
+
+.main__list {
+    li {
+        text-align: center;
+        padding: 30px;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 70px;
+        letter-spacing: 10px;
+        color: black;
+        transition: all 0.5s;
+
+        &:hover {
+            color: $primary;
+            filter: blur(3px);
+        }
+    }
+}
+
