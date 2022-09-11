@@ -4,7 +4,7 @@
 ### Llubel`s es un proyecto hecho para Coderhouse con el fin de aprobar un curso de Desarollado Web. 
 ---
 ## Concepto
-### Llubel`s es una empresa, cual cuya pagina abarca todo el mundo de la fotografia en un solo lugar. Podras encontrar desde los mejores fotografos hasta servivcios de revelado y compra de productos fotograficos.
+### Llubel`s es una empresa, cuya pagina abarca todo el mundo de la fotografía en un solo lugar. Podras encontrar desde los mejores fotógrafos hasta servivcios de revelado y compra de productos fotográficos.
 ---
 ### Datos Personales
 - **Agustin Llubel**
