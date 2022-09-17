@@ -35,10 +35,7 @@
          }
     }
     
-    &__logo {
-       @include logo-style
-    }
-
+    
     &-text {
         text-align: center;
         background: rgb(37, 36, 36);;
@@ -48,3 +45,6 @@
     }
 }
 
+.footer__logo {
+   @include logo-style
+}
