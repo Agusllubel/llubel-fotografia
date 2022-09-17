@@ -4,13 +4,6 @@ header {
     justify-content: space-around;
 
     .logo {
-        width: 150px;
-        height: 55px;
-        transition: 1s;
-
-        &:hover {
-            filter: blur(2px);
-            transform: scale(1.05);
-        }
+      @include logo-style
     }
 }

@@ -3,3 +3,38 @@
 $primary:#368363;
 $secondary:#ffffff00;
 $tertiary:#10281e;
+
+@mixin h1-style {
+    color: rgb(255, 255, 255);
+    background: linear-gradient( $secondary, $primary);
+    padding: 10px;
+    font-size: 80px;
+    border-radius: 30px;
+    transition: all 0.5s;
+
+    &:hover {
+        filter: blur(3px);
+    }
+}
+
+@mixin title-style {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+@mixin logo-style {
+    width: 150px;
+    height: 55px;
+    transition: 1s;
+
+    &:hover {
+        filter: blur(1px);
+        transform: scale(1.05);
+    }
+}

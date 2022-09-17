@@ -1,25 +1,9 @@
 .title__services {
     background-image: url("../assets/images/servicios.jpg");
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
+    @include title-style;
 
     h1 {
-        color: rgb(255, 255, 255);
-        background: linear-gradient( $secondary, $primary);
-        padding: 10px;
-        font-size: 80px;
-        border-radius: 30px;
-        transition: all 0.5s;
-
-        &:hover {
-            filter: blur(3px);
-        }
+        @include h1-style;
     }
 }
 
@@ -29,6 +13,12 @@
         padding: 30px;
         list-style: none;
     }
+    
+    // Este mapa fue creado solo con la itencion de cumplir con la consigna "Utilizar map-get" \\
+    $font-color: (
+        col: #368363
+    );
+    // --------------------------------------------------------------------------------------- \\
 
     a {
         text-decoration: none;
@@ -38,8 +28,10 @@
         transition: all 0.5s;
 
         &:hover {
-            color: $primary;
-            filter: blur(3px);
+            //----------map-get-----------\\
+            color: map-get($font-color, col);
+            //-----------------------------\\
+            filter: blur(2px);
         }
     }
 }
