@@ -4,7 +4,10 @@
     text-align: center;
     letter-spacing: 200px;
     
-    
+    &__logo {
+        @include logo-style
+     }
+
     &__img- {
         &facebook {
             width: 40px;
@@ -35,7 +38,6 @@
          }
     }
     
-    
     &-text {
         text-align: center;
         background: rgb(37, 36, 36);;
@@ -43,8 +45,4 @@
         font-size: 15px;
         color: #f3f3f3;
     }
-}
-
-.footer__logo {
-   @include logo-style
 }
