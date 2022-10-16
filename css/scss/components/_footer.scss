@@ -11,7 +11,7 @@
     &__img- {
         &facebook {
             width: 40px;
-            padding-bottom: 10px;
+            padding-bottom: 20px;
             padding-top: 20px;
             transition: all 0.3s;
         }
@@ -42,7 +42,11 @@
         text-align: center;
         background: rgb(37, 36, 36);;
         padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 0px;
         font-size: 15px;
         color: #f3f3f3;
     }
 }
+
+

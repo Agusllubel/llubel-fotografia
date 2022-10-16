@@ -27,9 +27,18 @@ header .logo:hover {
   text-align: center;
   letter-spacing: 200px;
 }
+.footer__logo {
+  width: 150px;
+  height: 55px;
+  transition: 1s;
+}
+.footer__logo:hover {
+  filter: blur(1px);
+  transform: scale(1.05);
+}
 .footer__img-facebook, .footer__img-instagram, .footer__img-twitter, .footer__img-whatsapp {
   width: 40px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   padding-top: 20px;
   transition: all 0.3s;
 }
@@ -56,18 +65,10 @@ header .logo:hover {
   text-align: center;
   background: rgb(37, 36, 36);
   padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
   font-size: 15px;
   color: #f3f3f3;
-}
-
-.footer__logo {
-  width: 150px;
-  height: 55px;
-  transition: 1s;
-}
-.footer__logo:hover {
-  filter: blur(1px);
-  transform: scale(1.05);
 }
 
 .main-img {
