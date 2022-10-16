@@ -218,7 +218,6 @@ header .logo:hover {
 }
 .main__list a:hover {
   color: #368363;
-  filter: blur(2px);
 }
 
 .title__contact {
